@@ -14,15 +14,17 @@ function ProducHeader() {
   const navigator = useNavigate();
   return (
     <>
-      <header className=" flex  items-center gap-3 max-[650px]:gap-2.5 max-[650px]:gap-2 max-[650px]:pb-3 max-[650px]:pt-0 justify-between border-b py-3 px-6 max-[650px]:px-3">
-        <IoArrowBack
-          className=" max-[650px]:block hidden"
-          onClick={() => navigator("/")}
-        />
-        <h1 className=" font-semibold text-lg max-[650px]:text-base">
-          Products
-        </h1>
-        <div className=" flex items-center gap-2.5 max-[650px]:gap-3">
+      <header className=" flex max-[650px]:px-4  items-center gap-3 max-[650px]:gap-0  max-[650px]:pb-3 max-[650px]:pt-0 justify-between border-b py-3 px-6">
+        <div className=" flex gap-2 items-center ">
+          <IoArrowBack
+            className=" max-[850px]:block hidden"
+            onClick={() => navigator("/")}
+          />
+          <h1 className=" font-semibold text-lg max-[650px]:text-base">
+            Products
+          </h1>
+        </div>
+        <div className=" flex items-center gap-2 max-[650px]:gap-3">
           <form
             action="#"
             className=" border rounded-lg flex items-center gap-px px-3 py-2 max-[650px]:w-44"
@@ -39,8 +41,8 @@ function ProducHeader() {
         </div>
       </header>
       <section
-        className=" flex justify-between items-center gap-3 max-[650px]:items-start
-      px-3 border-b py-3 flex-wrap"
+        className=" flex justify-between items-center max-[650px]:mx-4 gap-3 max-[650px]:items-start
+      px-3 py-3 flex-wrap"
       >
         <div className=" flex gap-2 flex-wrap ">
           <span

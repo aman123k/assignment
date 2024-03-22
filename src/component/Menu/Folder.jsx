@@ -10,7 +10,7 @@ function Folder() {
 
   return (
     <>
-      <header className=" flex justify-between items-center  max-[1050px]:mt-28 max-[660px]:mt-16 px-3">
+      <header className=" flex justify-between items-center  max-[850px]:mt-16 px-3">
         <h1 className=" text-[#C8C9CA] font-semibold tracking-wide">FOLDERS</h1>
         <GoPlus className=" text-2xl font-bold cursor-pointer text-[#C8C9CA]" />
       </header>

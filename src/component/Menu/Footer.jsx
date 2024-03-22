@@ -5,7 +5,7 @@ import { IoMdHelpCircleOutline } from "react-icons/io";
 function Footer() {
   return (
     <>
-      <nav className=" mt-16 max-[1050px]:mt-24 max-[650px]:mt-16 ">
+      <nav className=" mt-16 max-[1050px]:mt-60  max-[850px]:mt-16 ">
         <ul className=" flex flex-col gap-3">
           <li
             className=" flex items-center gap-2  max-[650px]:py-2.5 py-2.5 max-[1050px]:py-4 rounded-lg px-3 

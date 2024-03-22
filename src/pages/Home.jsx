@@ -14,11 +14,11 @@ function Home() {
   return (
     <section className=" flex ">
       <section
-        className={`w-[30%] max-[650px]:absolute top-0 left-0 flex-shrink-0 max-[650px]:w-full px-3 max-[650px]:mx-0 max-[650px]:my-0 duration-500 ease-in-out
-      max-[650px]:px-5 max-[650px]:py-5 max-[650px]:border-none mx-3 rounded-xl my-4 py-4 border
+        className={`w-[30%] max-[850px]:absolute top-0 left-0 flex-shrink-0 max-[850px]:w-full px-3 max-[850px]:mx-0 max-[650px]:my-0 duration-500 ease-in-out
+      max-[650px]:px-5 max-[850px]:py-5 max-[850px]:border-none mx-3 rounded-xl my-4 py-4 border
       max-[1050px]:py-8 max-[1050px]:px-4
-      max-[1050px]:w-[40%] overflow-hidden ${
-        id === "product" ? "max-[650px]:translate-x-[-100%]" : ""
+      max-[1050px]:w-[30%] overflow-hidden ${
+        id === "product" ? "max-[850px]:translate-x-[-100%]" : ""
       }`}
       >
         <Header />
@@ -28,10 +28,10 @@ function Home() {
       </section>
       {id && (
         <section
-          className={`w-[70%] max-[650px]:absolute top-0 left-0 max-[650px]:w-full max-[650px]:mx-0 max-[650px]:m-0 duration-700 ease-in-out
+          className={`w-[70%] max-[850px]:absolute top-0 left-0 max-[850px]:w-full max-[850px]:mx-0 max-[650px]:m-0 duration-700 ease-in-out
       max-[650px]:px-0 max-[650px]:py-5 max-[650px]:border-none mx-3 rounded-xl my-4 border
-      max-[1050px]:w-[60%] overflow-hidden ${
-        id === "product" ? "" : "max-[650px]:translate-x-[-100%]"
+      max-[1050px]:w-[70%] overflow-hidden ${
+        id === "product" ? "" : "max-[850px]:translate-x-[-100%]"
       }`}
         >
           <ProducHeader />
