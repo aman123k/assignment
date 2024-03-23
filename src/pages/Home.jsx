@@ -12,7 +12,7 @@ function Home() {
       window.location.href.split("/").length - 1
     ];
   return (
-    <section className=" flex ">
+    <section className=" flex min-[1700px]:ml-[50%]  min-[1700px]:translate-x-[-50%] ">
       <section
         className={`w-[30%] max-[850px]:absolute top-0 left-0 flex-shrink-0 max-[850px]:w-full px-3 max-[850px]:mx-0 max-[650px]:my-0 duration-500 ease-in-out
       max-[650px]:px-5 max-[850px]:py-5 max-[850px]:border-none mx-3 rounded-xl my-4 py-4 border
