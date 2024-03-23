@@ -7,10 +7,10 @@ import { RiExpandLeftRightLine } from "react-icons/ri";
 function TopSection() {
   return (
     <>
-      <nav className=" border rounded-lg  max-[1050px]:my-16 my-14 select-none">
-        <ul>
+      <nav className=" border rounded-lg  max-[1050px]:my-16 my-12 select-none">
+        <ul className="py-4 flex-col flex gap-2 max-[1050px]:gap-5 max-[650px]:gap-3">
           <li
-            className=" cursor-pointer mx-3 my-4  flex justify-between items-center hover:bg-[#b1b4b6] px-3
+            className=" cursor-pointer mx-3   flex justify-between items-center hover:bg-[#b1b4b6] px-3
           rounded-lg py-2.5"
           >
             <span className=" flex items-center gap-2">
@@ -24,7 +24,7 @@ function TopSection() {
             </span>
           </li>
           <li
-            className=" cursor-pointer mx-3 my-4  flex justify-between items-center hover:bg-[#b1b4b6] px-3
+            className=" cursor-pointer mx-3 flex justify-between items-center hover:bg-[#b1b4b6] px-3
           rounded-lg py-2.5"
           >
             <span className=" flex items-center gap-2">
@@ -38,7 +38,7 @@ function TopSection() {
             </span>
           </li>
           <li
-            className=" cursor-pointer mx-3 my-4  flex justify-between items-center hover:bg-[#b1b4b6] px-3
+            className=" cursor-pointer mx-3  flex justify-between items-center hover:bg-[#b1b4b6] px-3
           rounded-lg py-2.5"
           >
             <span className=" flex items-center gap-2">
