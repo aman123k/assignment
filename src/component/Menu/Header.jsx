@@ -15,7 +15,7 @@ function Header() {
         </div>
         <img
           src={user}
-          className=" w-12 tracking-wide h-12 rounded-full"
+          className=" w-12 object-cover tracking-wide h-12 rounded-full"
           alt="user"
         />
       </header>
